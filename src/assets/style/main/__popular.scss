@@ -1,0 +1,37 @@
+.popular{
+    width: 386px;
+    height: 542px;
+    background-color: #F6F6F9;
+    border-radius: 5px;
+    padding-top: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 8px;
+    &__heading{
+        margin-bottom: 8px;
+    }
+    &__news{
+        margin-top: 14px;
+        border-bottom: 4px solid #E4E4E4;
+        &_text{
+            max-width: 347px;
+            font-size: 17px;
+            line-height: 20px;
+            margin-bottom: 11px;
+        }
+        &_date{
+            font-size: 14px;
+            margin-bottom: 14px ;
+            color: #7688A4;
+        }
+    }
+    &__news:last-child{
+        border-bottom: none;
+    }
+    &__ads{
+        // position: absolute;
+        // width: 386px;
+        transform: scale(1.13);
+        margin-top: 70px;
+    }
+}

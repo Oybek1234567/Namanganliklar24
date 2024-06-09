@@ -1,0 +1,22 @@
+.grid-news{
+    margin-top: 18px;
+    &__list{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -17px;
+        &_items{
+            width: 376px;
+            height: 190px;
+            margin-left: 15px;
+            margin-bottom: 100px;
+            &-text{
+                margin-top: 11px;
+                margin-bottom: 11px;
+            }
+            &-date{
+                color: #6B6D97;
+            }
+        }
+
+    }
+}

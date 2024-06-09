@@ -1,0 +1,9 @@
+@import "./_covid";
+@import "./_grid-news";
+@import "./_notification";
+@import "./_latest_news";
+@import "./_popular";
+@import "./_product";
+main{
+    flex-grow: 1;
+}

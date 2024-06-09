@@ -1,0 +1,94 @@
+.covid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #f6f6f9;
+    height: 133px;
+    &__virus {
+        display: flex;
+        align-items: center;
+        padding-left: 35px;
+        &_img {
+            width: 43px;
+            height: 45px;
+            background-size: cover;
+            margin-right: 25px;
+        }
+        &_title {
+            max-width: 232px;
+            font-size: 20px;
+            font-weight: 500;
+            margin-right: 70px;
+        }
+    }
+    &__news {
+        display: flex;
+        flex-grow: 3;
+        &_infected {
+            display: flex;
+            align-items: center;
+            flex-grow: 1;
+            height: 74px;
+            border-left: 2px solid #EB5569;
+            padding-left: 29px;
+            &-info{
+                margin-left: 17px;
+            }
+            &-text{
+                color: #DB0000;
+                font-size: 18px;
+                font-weight: 400;
+                margin-bottom: 6px;
+            }
+            &-count{
+                font-size: 20px;
+                font-weight: 600;
+            }
+        }
+        &_recover {
+            display: flex;
+            align-items: center;
+            flex-grow: 1;
+            height: 49px;
+            margin-top: 10px;
+            border-left: 2px solid #F4CCD1;
+            padding-left: 29px;
+            &-info{
+                margin-left: 17px;
+            }
+            &-text{
+                color: #05B135;
+                font-size: 18px;
+                font-weight: 400;
+                margin-bottom: 6px;
+            }
+            &-count{
+                font-size: 20px;
+                font-weight: 600;
+            }
+        }
+        &_dead {
+            display: flex;
+            align-items: center;
+            flex-grow: 1;
+            height: 49px;
+            margin-top: 10px;
+            border-left: 2px solid #F4CCD1;
+            padding-left: 29px;
+            &-info{
+                margin-left: 17px;
+            }
+            &-text{
+                font-size: 18px;
+                font-weight: 400;
+                margin-bottom: 4px;
+            }
+            &-count{
+                font-size: 20px;
+                font-weight: 600;
+                
+            }
+        }
+    }
+}

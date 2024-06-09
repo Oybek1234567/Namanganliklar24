@@ -1,0 +1,36 @@
+.product {
+    display: flex;
+    align-items: center;
+    height: 214px;
+    background-color: #f6f6f9;
+    margin-top: 38px;
+    border-radius: 5px;
+    &__contents {
+        display: flex;
+        &_img {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            &-two{
+                margin-right: 40px;
+                margin-left: 20px;
+            }
+        }
+    }
+    &__title{
+        color: #295093;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    &__text{
+        max-width: 515px;
+        font-size: 18px;
+        color: #333333;
+        margin-right: 74px;
+    }
+}
+.product__img {
+    margin-top: 37px;
+    width: 236px;
+    height: 177px;
+}

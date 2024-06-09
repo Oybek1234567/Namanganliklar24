@@ -1,0 +1,50 @@
+.latest-news{
+    &__title{
+        margin-bottom: 13px;
+    }
+    &__lists_card{
+            display: flex;
+            flex-wrap: nowrap;
+            margin-right: 20px;
+            &-title{
+                width: 507px;
+                font-size: 17px;
+                margin-bottom: 8px;
+                color: #202020;
+            }
+            &-text{
+                width: 512px;
+                color: #434343;
+                font-weight: 400;
+                line-height: 18px;
+                font-size: 15px;
+                margin-bottom: 12px;
+            }
+            &-date{
+                display: flex;
+                align-items: center;
+                font-size: 14px;
+                color: #7688A4;
+            }
+        }
+        &__btn{
+            width: 211px;
+            height: 42px;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+            background-color: #295093;
+            color: #fff;
+            font-size: 17px;
+            margin-left: 295px;
+        }
+        &__btn:hover{
+            opacity: 0.8;
+        }
+    }
+.latest-news img{
+    width: 252px;
+    height: 143px;
+    margin-right: 19px;
+    margin-bottom: 18px;
+}

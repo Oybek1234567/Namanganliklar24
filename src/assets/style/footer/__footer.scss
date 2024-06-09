@@ -1,0 +1,75 @@
+.footer {
+    background-color: #295093;
+    color: #fff;
+    &__sub{
+        display: flex;
+        align-items: center;
+        &_text{
+            font-size: 14px;
+            margin-right: 17px;
+        }
+        &_btn{
+            display: flex;
+            align-items: center;
+            width: 132px;
+            height: 38px;
+            border-radius: 5px;
+            background-color: #FFFFFF;
+            padding-left: 9px;
+            gap: 6px;
+            font-weight: 500;
+            font-size: 14px;
+            border: none;
+            outline: none;
+            color: #295093;
+        }
+        &_btn:hover{
+            opacity: 0.8;
+        }
+    }
+    &__logo{
+        width: 194px;
+        height: 38px;
+        background-color: #133C82;
+        border-radius: 5px;
+        font-weight: 700;
+        font-size: 16px;
+        padding-top: 11px;
+        padding-left: 14px;
+        margin-right: 173px;
+    }
+    &__line{
+        margin-top: 20px;
+        margin-bottom: 12px;
+        border: 3px solid #133C82;
+    }
+    &__about{
+        display: flex;
+        &_title{
+            font-weight: 500;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        &_text{
+            max-width: 365px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 17px;
+            margin-bottom: 25px;
+        }
+        &_items{
+            margin-left: 111px;
+            margin-right: 115px;
+            margin-bottom:  15px;
+        }
+        &_items li:not(:last-child){
+            margin-bottom: 12px;
+        }
+        &_other-items li:not(:last-child){
+            margin-bottom: 12px;
+        }
+        &_items li:hover{
+            opacity: 0.8;
+        }
+    }
+}
